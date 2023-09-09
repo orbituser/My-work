@@ -7,8 +7,28 @@
     <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
-    <header>Time would be here</header>
-    <main>Display picture and track would be here</main>
-    <footer><a href="https://github.com/orbituser/My-work.git" target = "_blank">Link to my Github repository</a></footer>
+    <header>
+        <p data-testid="currentDayOfTheWeek">Current day of the week</p>
+        
+        <div data-testid="currentUTCTime">Current UTC Time in ms</div>
+    </header>
+    <main class="profile">
+        <img
+        src="pfp.jpg"
+        alt="Donald Mozea"
+        data-testid="slackDisplayImage"
+      />
+      <h3 data-testid="slackUserName">Donald Mozea</h3>
+      <h3 data-testid="myTrack">Front-end</h3>
+    </main>
+    
+    
+
+    <footer>
+        <a data-testid="githubURL" href="https://github.com/orbituser/My-work.git" target="_blank">Link to my Github repository</a>
+    </footer>
+
+
+    <script src="index.js"></script>
 </body>
 </html>

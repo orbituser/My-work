@@ -1,3 +1,28 @@
 body{
-    background-color: bisque;
+    font-family: math;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    
 }
+main{
+    width: 250px;
+}
+
+ img{
+    width: 250px;
+    height: 400px;
+}
+
+
+.profile{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+   background-color: #9a8a8ab3;
+}
+
+
